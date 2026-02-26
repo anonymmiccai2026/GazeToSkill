@@ -10,7 +10,7 @@ Accurate interpretation of volumetric CT requires efficient navigation of 3D ima
 
 You can download the pretrained model weights here:
 
-[Download Checkpoint](https://drive.google.com/file/d/1UhokGZEPHZ1HDNyhLk8zyO2OUvLkrcD5/view?usp=sharing)
+[Download Checkpoint](https://drive.google.com/file/d/10hmU9yTpe_nP5F7v0WEn4TF2NW1wzGJU/view?usp=drive_link)
 
 
 ## Train DINOv2 Gaze-Weighted Classifier.
