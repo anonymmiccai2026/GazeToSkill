@@ -1,5 +1,11 @@
 # GazeToSkill
 
+This repository contains the anonymous code accompanying the paper: From Gaze to Skill: Automated Assessment of Radiologist Expertise Through Eye-Tracking on Thoracic CT Scans.
+
+## Abstract
+
+Accurate interpretation of volumetric CT requires efficient navigation of 3D image volumes and attention to diagnostically relevant regions. While eye-tracking has been widely studied in 2D medical imaging, its use for expertise assessment in volumetric CT remains limited. We propose a gaze-informed transformer framework for automated expertise classification in thoracic CT. Using a DINOv2 ViT-B/14 backbone, radiologist fixation patterns are integrated into volumetric feature learning through (1) a learnable log-space bias in self-attention and (2) gaze-weighted pooling of patch embeddings. We evaluate our approach on 182 CT reading sessions from five radiologists with varying experience levels. On a held-out test set, the model achieves a ROC-AUC of 0.909 and F1-score of 0.861, outperforming adapted methods. These findings suggest that incorporating visual search behavior into volumetric transformers may support objective, process-based expertise assessment in radiology.
+
 Train DINOv2 Gaze-Weighted Classifier.
 
 
