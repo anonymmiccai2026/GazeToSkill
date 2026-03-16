@@ -75,4 +75,18 @@ We evaluate our proposed model against adapted models. Performance is reported u
 | **Ours**                        | CT volume            | Skill        | **0.9089** | **0.8611** | 0.7949     | **0.9310** |
 
 
+## Ablation Study
+
+> **Attention variants:** *Gaze-Bias* — soft additive bias injected into self-attention layers; *Fix-Mask* — hard binary mask on attention (patches with zero gaze weight are blocked from being attended to); *None* — standard DINOv2 self-attention, no gaze signal enters the transformer.
+>
+> **Pooling strategies:** *Gaze-Weighted* — weighted average of all patch tokens using normalized gaze weights (patches the radiologist fixated more contribute more to the session embedding); *CLS* — uses only the CLS token.
+
+| Attention | Pooling | Mean Val AUC | AUC | F1 | Sens. | Spec. |
+|-----------|---------|-------------|-----|-----|-------|-------|
+| Gaze-Bias | Gaze-Weighted | 0.796 &plusmn; 0.091 | **0.909** | **0.861** | **0.795** | 0.931 |
+| Gaze-Bias | CLS | 0.828 &plusmn; 0.101 | 0.897 | 0.824 | 0.751 | 0.892 |
+| None | Gaze-Weighted | 0.632 &plusmn; 0.090 | 0.856 | 0.759 | 0.623 | **0.969** |
+| Fix-Mask | Gaze-Weighted | 0.871 &plusmn; 0.101 | 0.842 | 0.783 | 0.688 | 0.892 |
+| Fix-Mask | CLS | 0.823 &plusmn; 0.105 | 0.799 | 0.850 | **0.872** | 0.759 |
+
 
