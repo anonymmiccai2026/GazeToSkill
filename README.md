@@ -77,9 +77,7 @@ We evaluate our proposed model against adapted models. Performance is reported u
 
 ## Ablation Study
 
-> **Attention variants:** *Gaze-Bias* — soft additive bias injected into self-attention layers; *Fix-Mask* — hard binary mask on attention (patches with zero gaze weight are blocked from being attended to); *None* — standard DINOv2 self-attention, no gaze signal enters the transformer.
->
-> **Pooling strategies:** *Gaze-Weighted* — weighted average of all patch tokens using normalized gaze weights (patches the radiologist fixated more contribute more to the session embedding); *CLS* — uses only the CLS token.
+Attention variants: Gaze-Bias - soft additive bias injected into self-attention layers; Fix-Mask - hard binary mask on attention, meaning patches with zero gaze weight are blocked from being attended to; None - standard DINOv2 self-attention, no gaze signal enters the transformer. Pooling strategies: Gaze-Weighted - weighted average of all patch tokens using normalized gaze weights, i.e., patches the radiologist looked at more contribute more to the session embedding; CLS - uses only CLS token.
 
 | Attention | Pooling | Mean Val AUC | AUC | F1 | Sens. | Spec. |
 |-----------|---------|-------------|-----|-----|-------|-------|
