@@ -1,0 +1,131 @@
+Device: cuda
+Loading 5 fold checkpoints from /home/csn801/MICCAI2026/lib/model4_main_folder/checkpoints_best
+  fold0-best.ckpt  attn=gaze_bias  pool=gaze_weighted
+  fold1-best.ckpt  attn=gaze_bias  pool=gaze_weighted
+  fold2-best.ckpt  attn=gaze_bias  pool=gaze_weighted
+  fold3-best.ckpt  attn=gaze_bias  pool=gaze_weighted
+  fold4-best.ckpt  attn=gaze_bias  pool=gaze_weighted
+
+── Discovering sessions ──
+  Test sessions: 68 (C=39, E=29)
+
+── Running ensemble inference on test sessions ──
+  [ 1/68] rad=C ct=LIDC-IDRI-0260       label=1 prob=0.6089
+  [ 2/68] rad=C ct=LIDC-IDRI-0716       label=1 prob=0.9811
+  [ 3/68] rad=C ct=LIDC-IDRI-0265       label=1 prob=0.9824
+  [ 4/68] rad=C ct=LIDC-IDRI-0236       label=1 prob=0.9815
+  [ 5/68] rad=C ct=LIDC-IDRI-0274       label=1 prob=0.9461
+  [ 6/68] rad=C ct=LIDC-IDRI-0612       label=1 prob=0.9820
+  [ 7/68] rad=C ct=LIDC-IDRI-0242       label=1 prob=0.9884
+  [ 8/68] rad=C ct=LIDC-IDRI-0668       label=1 prob=0.8779
+  [ 9/68] rad=C ct=LIDC-IDRI-0210       label=1 prob=0.9961
+  [10/68] rad=C ct=LIDC-IDRI-0689       label=1 prob=0.9530
+  [11/68] rad=C ct=LIDC-IDRI-0258       label=1 prob=0.9210
+  [12/68] rad=C ct=LIDC-IDRI-0314       label=1 prob=0.9763
+  [13/68] rad=C ct=LIDC-IDRI-0470       label=1 prob=0.9979
+  [14/68] rad=C ct=LIDC-IDRI-0454       label=1 prob=0.9979
+  [15/68] rad=C ct=LIDC-IDRI-0731       label=1 prob=0.9684
+  [16/68] rad=C ct=LIDC-IDRI-0271       label=1 prob=0.9344
+  [17/68] rad=C ct=LIDC-IDRI-0760       label=1 prob=0.4797
+  [18/68] rad=C ct=LIDC-IDRI-0900       label=1 prob=0.9848
+  [19/68] rad=C ct=LIDC-IDRI-0325       label=1 prob=0.9898
+  [20/68] rad=C ct=LIDC-IDRI-0307       label=1 prob=0.3516
+  [21/68] rad=C ct=LIDC-IDRI-0138       label=1 prob=0.9787
+  [22/68] rad=C ct=LIDC-IDRI-0190       label=1 prob=0.9668
+  [23/68] rad=C ct=LIDC-IDRI-0322       label=1 prob=0.7267
+  [24/68] rad=C ct=LIDC-IDRI-0364       label=1 prob=0.7852
+  [25/68] rad=C ct=LIDC-IDRI-0166       label=1 prob=0.9728
+  [26/68] rad=C ct=LIDC-IDRI-0306       label=1 prob=0.8273
+  [27/68] rad=C ct=LIDC-IDRI-0072       label=1 prob=0.9800
+  [28/68] rad=C ct=LIDC-IDRI-0175       label=1 prob=0.9910
+  [29/68] rad=C ct=LIDC-IDRI-0192       label=1 prob=0.9959
+  [30/68] rad=C ct=LIDC-IDRI-0194       label=1 prob=0.9858
+  [31/68] rad=C ct=LIDC-IDRI-0191       label=1 prob=0.9837
+  [32/68] rad=C ct=LIDC-IDRI-0506       label=1 prob=0.9504
+  [33/68] rad=C ct=LIDC-IDRI-0202       label=1 prob=0.6847
+  [34/68] rad=C ct=LIDC-IDRI-0203       label=1 prob=0.9371
+  [35/68] rad=C ct=LIDC-IDRI-0441       label=1 prob=0.8424
+  [36/68] rad=C ct=LIDC-IDRI-0200       label=1 prob=0.9080
+  [37/68] rad=C ct=LIDC-IDRI-0540       label=1 prob=0.9941
+  [38/68] rad=C ct=LIDC-IDRI-0573       label=1 prob=0.8939
+  [39/68] rad=C ct=LIDC-IDRI-0223       label=1 prob=0.9755
+  [40/68] rad=E ct=LIDC-IDRI-0192       label=0 prob=0.3422
+  [41/68] rad=E ct=LIDC-IDRI-0307       label=0 prob=0.6214
+  [42/68] rad=E ct=LIDC-IDRI-0322       label=0 prob=0.5761
+  [43/68] rad=E ct=LIDC-IDRI-0364       label=0 prob=0.7531
+  [44/68] rad=E ct=LIDC-IDRI-0166       label=0 prob=0.4997
+  [45/68] rad=E ct=LIDC-IDRI-0306       label=0 prob=0.8451
+  [46/68] rad=E ct=LIDC-IDRI-0191       label=0 prob=0.3987
+  [47/68] rad=E ct=LIDC-IDRI-0441       label=0 prob=0.2632
+  [48/68] rad=E ct=LIDC-IDRI-0202       label=0 prob=0.8169
+  [49/68] rad=E ct=LIDC-IDRI-0573       label=0 prob=0.8679
+  [50/68] rad=E ct=LIDC-IDRI-0506       label=0 prob=0.4254
+  [51/68] rad=E ct=LIDC-IDRI-0200       label=0 prob=0.6364
+  [52/68] rad=E ct=LIDC-IDRI-0203       label=0 prob=0.3420
+  [53/68] rad=E ct=LIDC-IDRI-0540       label=0 prob=0.4143
+  [54/68] rad=E ct=LIDC-IDRI-0194       label=0 prob=0.7916
+  [55/68] rad=E ct=LIDC-IDRI-0265       label=0 prob=0.9760
+  [56/68] rad=E ct=LIDC-IDRI-0716       label=0 prob=0.2930
+  [57/68] rad=E ct=LIDC-IDRI-0210       label=0 prob=0.4773
+  [58/68] rad=E ct=LIDC-IDRI-0689       label=0 prob=0.7019
+  [59/68] rad=E ct=LIDC-IDRI-0236       label=0 prob=0.9577
+  [60/68] rad=E ct=LIDC-IDRI-0274       label=0 prob=0.3542
+  [61/68] rad=E ct=LIDC-IDRI-0242       label=0 prob=0.2590
+  [62/68] rad=E ct=LIDC-IDRI-0668       label=0 prob=0.4958
+  [63/68] rad=E ct=LIDC-IDRI-0260       label=0 prob=0.3156
+  [64/68] rad=E ct=LIDC-IDRI-0470       label=0 prob=0.2393
+  [65/68] rad=E ct=LIDC-IDRI-0760       label=0 prob=0.8461
+  [66/68] rad=E ct=LIDC-IDRI-0271       label=0 prob=0.3149
+  [67/68] rad=E ct=LIDC-IDRI-0314       label=0 prob=0.6462
+  [68/68] rad=E ct=LIDC-IDRI-0900       label=0 prob=0.2763
+
+Saved per-session results → /home/csn801/MICCAI2026/lib/model13_for_review/per_ct_analysis.csv
+
+── Pairing CT volumes seen by BOTH C and E ──
+  Paired CTs: 29
+
+── Per-CT prediction comparison (C=Expert vs E=Novice on same CT) ──
+  Pairs (CTs):              29
+  Youden threshold:         0.870
+  Mean   (prob_C - prob_E): +0.3373
+  Median (prob_C - prob_E): +0.3821
+  Sign agreement (prob_C > prob_E): 86.2%   [null=50% if CT-only]
+  Sign test p (>0.5):       5.186e-05
+  Wilcoxon p (diff > 0):    5.139e-06
+
+  Both predictions correct: 65.5%   [null=0% if CT-only]
+  Only C correct:           6.9%
+  Only E correct:           27.6%
+  Neither correct:          0.0%
+
+── Per-CT detail ──
+  CT_ID                       prob_C   prob_E     diff  C_ok  E_ok
+  LIDC-IDRI-0260              0.6089   0.3156  +0.2933     N     Y
+  LIDC-IDRI-0716              0.9811   0.2930  +0.6882     Y     Y
+  LIDC-IDRI-0265              0.9824   0.9760  +0.0064     Y     N
+  LIDC-IDRI-0236              0.9815   0.9577  +0.0238     Y     N
+  LIDC-IDRI-0274              0.9461   0.3542  +0.5919     Y     Y
+  LIDC-IDRI-0242              0.9884   0.2590  +0.7294     Y     Y
+  LIDC-IDRI-0668              0.8779   0.4958  +0.3821     Y     Y
+  LIDC-IDRI-0210              0.9961   0.4773  +0.5188     Y     Y
+  LIDC-IDRI-0689              0.9530   0.7019  +0.2511     Y     Y
+  LIDC-IDRI-0314              0.9763   0.6462  +0.3301     Y     Y
+  LIDC-IDRI-0470              0.9979   0.2393  +0.7586     Y     Y
+  LIDC-IDRI-0271              0.9344   0.3149  +0.6195     Y     Y
+  LIDC-IDRI-0760              0.4797   0.8461  -0.3665     N     Y
+  LIDC-IDRI-0900              0.9848   0.2763  +0.7085     Y     Y
+  LIDC-IDRI-0307              0.3516   0.6214  -0.2698     N     Y
+  LIDC-IDRI-0322              0.7267   0.5761  +0.1505     N     Y
+  LIDC-IDRI-0364              0.7852   0.7531  +0.0322     N     Y
+  LIDC-IDRI-0166              0.9728   0.4997  +0.4731     Y     Y
+  LIDC-IDRI-0306              0.8273   0.8451  -0.0177     N     Y
+  LIDC-IDRI-0192              0.9959   0.3422  +0.6537     Y     Y
+  LIDC-IDRI-0194              0.9858   0.7916  +0.1943     Y     Y
+  LIDC-IDRI-0191              0.9837   0.3987  +0.5850     Y     Y
+  LIDC-IDRI-0506              0.9504   0.4254  +0.5250     Y     Y
+  LIDC-IDRI-0202              0.6847   0.8169  -0.1322     N     Y
+  LIDC-IDRI-0203              0.9371   0.3420  +0.5951     Y     Y
+  LIDC-IDRI-0441              0.8424   0.2632  +0.5793     N     Y
+  LIDC-IDRI-0200              0.9080   0.6364  +0.2716     Y     Y
+  LIDC-IDRI-0540              0.9941   0.4143  +0.5798     Y     Y
+  LIDC-IDRI-0573              0.8939   0.8679  +0.0261     Y     Y
